@@ -1,0 +1,66 @@
+/* Estil de la capa principal */
+.pokemon-card {
+    background-color: #a39e9e; 
+    padding: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+    margin-top: 50px; 
+}
+
+/* Estil de la imatge */
+.pokemon-image {
+    max-width: 100%; 
+    border-radius: 15px; 
+    margin-bottom: 20px; 
+}
+
+/* Estil de la capa d'informació del Pokémon */
+.pokemon-info {
+    background-color: #abeeab; 
+    border-radius: 15px; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+}
+
+/* Estil del nom del Pokémon */
+.pokemon-name {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #58b189; 
+    margin-bottom: 10px; 
+}
+
+/* Estil dels tipus de Pokémon */
+.pokemon-type {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 18px; 
+    padding: 5px 10px; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+}
+
+/* Tipus específic per al tipus Planta */
+.pokemon-type.plant {
+    color: #6bdbce; 
+}
+
+/* Tipus específic per al tipus Verí */
+.pokemon-type.poison {
+    color: #b6598c; 
+}
+
+/* Estil de la descripció del Pokémon */
+.pokemon-description {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px; 
+    color: #706868; 
+    line-height: 1.5; 
+}
